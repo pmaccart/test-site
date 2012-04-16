@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body {
+	background:url('/images/background.jpg');
+}
+
+h1 {
+	text-align: center;
+}
+
+div.row{
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter:alpha(opacity=60);
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+div.row a {
+	color: blue;
+}
+
+div.row img {
+	z-index:9999;
+	opacity: 1.0;
+	-moz-opacity: 1.0
+	filter:alpha(opacity=100);
+}
+
+div.container p {
+	color:black;
+}
+
+div.container strong { 
+	font-family: 'Belleza', sans-serif;
+	font-size: 1.5em;
+}
