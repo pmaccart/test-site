@@ -34,7 +34,7 @@ app.configure('production', function(){
 console.log(routes.index);
 console.log(routes.post);
 
-app.get('/*', routes.index);
+app.get('/', routes.index);
 app.get('/post', routes.post);
 
 app.listen(80);
